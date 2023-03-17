@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Liking Likes</title>
+  </head>
+  <body>
+    <nav><h2>Network</h2></nav>
+    <h1>Your Feed</h1>
+    <div class="content">
+      <div class="leftCol">
+        <div class="you">
+          <img src="user-circle.png" alt="profilePic" />
+          <a href="#">Add an avatar</a>
+          <p>James Doe</p>
+        </div>
+      </div>
+      <div class="rightCol">
+        <div class="messages">
+          <div class="topContent">
+            <p>Neil M</p>
+            <div class="buttonAndCounter">
+              <p class="neilsLikes"><span id="neilsStuff">9</span> like(s)</p>
+              <button class="btn" onclick="likesIncrement(neilsStuff)">Like</button>
+            </div>
+          </div>
+          <div class="bottomMessage">
+            <p>
+              I just set up this new discord bot, let me know what you all
+              think. <a href="#">link</a>
+            </p>
+          </div>
+        </div>
+        <div class="messages">
+          <div class="topContent">
+            <p>Nichole K</p>
+            <div class="buttonAndCounter">
+              <p class="nicholesLikes"><span id="nicholesStuff">12</span> like(s)</p>
+              <button class="btn" onclick="likesIncrement(nicholesStuff)">Like</button>
+            </div>
+          </div>
+          <div class="bottomMessage">
+            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+          </div>
+        </div>
+        <div class="messages">
+          <div class="topContent">
+            <p>Jim R</p>
+            <div class="buttonAndCounter">
+              <p class="jimsLikes"><span id="jimsStuff">9</span> like(s)</p>
+              <button class="btn" onclick=likesIncrement(jimsStuff)>Like</button>
+            </div>
+          </div>
+          <div class="bottomMessage">
+            <p>
+              I can't stop listening to the
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">new album</a
+              >. Who else is liking it?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

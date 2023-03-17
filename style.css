@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  margin: 0px 100px;
+}
+h1{
+  padding: 20px 0px;
+  text-align: center;
+}
+.content{
+  margin: 0px 100px;
+  display: flex;
+}
+.leftCol{
+  flex:1;
+}
+.you{
+  justify-items: center;
+  border: 2px solid black;
+  margin-right: 20px;
+}
+.you *{
+  margin: 15px;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+.you img{
+  width: 75px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rightCol{
+  flex:4;
+}
+.messages{
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.topContent{
+  display: flex;
+  justify-content: space-between;
+}
+.topContent *{
+  flex: 1;
+}
+.buttonAndCounter{
+  display: flex;
+}
+.btn{
+  background-color: yellow;
+  border: 2px black solid;
+  box-shadow: 2px 2px;
+  max-width: 50px;
+}
